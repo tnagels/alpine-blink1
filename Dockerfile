@@ -6,5 +6,4 @@ RUN apk add --no-cache build-base libusb libusb-dev git && git clone https://git
 
 EXPOSE 8080
 
-ENTRYPOINT ["blink1-tiny-server", "-p", "8080"]
-
+CMD ["blink1-tiny-server", "-p", "8080"]
