@@ -1,6 +1,6 @@
 # alpine-blink1
 
-Alpine Linux with blink1-tool and blink1-tiny-server.
+Alpine Linux with blink1-tool and blink1-tiny-server. Updated to contain the newest tools and server as they were moved to a different repository.
 
 ## Credits
 
