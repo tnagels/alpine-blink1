@@ -4,12 +4,12 @@ Alpine Linux with blink1-tool and blink1-tiny-server.
 
 ## Credits
 
-Taken from https://github.com/chorn/docker/tree/master/alpine-blink1
+Branched from https://github.com/mikebryant/alpine-blink1 who started from https://github.com/chorn/docker/tree/master/alpine-blink1
 
 ## Usage
-
+**Docker image not yet available**
 ```
-$ docker pull mikebryant/alpine-blink1
+$ docker pull tnagels/alpine-blink1
 ```
 
 Your Docker host probably needs to have `lsusb` and `udev` installed. On most Linux distributions they'll be there by default.
@@ -39,5 +39,5 @@ id:0 - serialnum:{{your blink serial number}} (mk2)
 ## Reference
 
 1. [Alpine Linux](http://alpinelinux.org)
-2. [blink(1)](blink1.thingm.com)
-3. [Offical blink(1) Tools](https://github.com/todbot/blink1)
+2. [blink(1)](https://blink1.thingm.com)
+3. [Offical blink(1) Tools](https://github.com/todbot/blink1-tool)
